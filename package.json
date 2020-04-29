@@ -1,0 +1,25 @@
+{
+  "name": "jest-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katsukiwataru/Jest-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/katsukiwataru/Jest-sample/issues"
+  },
+  "homepage": "https://github.com/katsukiwataru/Jest-sample#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-jest": "^25.5.1",
+    "jest": "^25.5.1"
+  }
+}
