@@ -9,18 +9,19 @@
   "jest": {
     "moduleFileExtensions": [
       "ts",
+      "tsx",
       "js"
     ],
     "transform": {
-      "^.+\\.ts$": "ts-jest"
+      "^.+\\.(ts|tsx)$": "ts-jest"
     },
     "globals": {
       "ts-jest": {
-        "tsConfig": "tsconfig.json"
+        "tsConfigFile": "tsconfig.json"
       }
     },
     "testMatch": [
-      "**/tests/**/*.test.ts"
+      "**/tests/*.+(ts|tsx|js)"
     ]
   },
   "repository": {
@@ -34,10 +35,7 @@
   },
   "homepage": "https://github.com/katsukiwataru/Jest-sample#readme",
   "devDependencies": {
-    "@babel/core": "^7.9.0",
-    "@babel/preset-env": "^7.9.5",
     "@types/jest": "^25.2.1",
-    "babel-jest": "^25.5.1",
     "jest": "^25.5.3",
     "ts-jest": "^25.4.0",
     "typescript": "^3.8.3"
