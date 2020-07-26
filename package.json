@@ -39,6 +39,6 @@
     "jest": "^25.5.3",
     "jest-cli": "^26.0.0",
     "ts-jest": "^25.4.0",
-    "typescript": "^3.8.3"
+    "typescript": "^3.9.7"
   }
 }
