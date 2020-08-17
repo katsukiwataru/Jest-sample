@@ -35,7 +35,7 @@
   },
   "homepage": "https://github.com/katsukiwataru/Jest-sample#readme",
   "devDependencies": {
-    "@types/jest": "^25.2.1",
+    "@types/jest": "^26.0.10",
     "jest": "^25.5.3",
     "jest-cli": "^26.0.0",
     "ts-jest": "^25.4.0",
